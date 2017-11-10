@@ -89,10 +89,10 @@ $ mv summon /usr/local/bin
 `docker exec -u 0 -it jenkins bash`
 3. Do the following from the Jenkins Master as root now:
 ```
-$ curl -L -O https://github.com/cyberark/summon-conjur/releases/download/v0.2.0/summon-conjur-linux-amd64.tar.gz
-$ tar -xvzf summon-conjur-linux-amd64.tar.gz
-$ mkdir -p /use/local/lib/summon
-$ mv summon /usr/local/lib/summon
+$ curl -L -O https://github.com/cyberark/summon-conjur/releases/download/v0.2.0/summon-conjur_v0.2.0_linux-amd64.tar.gz
+$ tar -xvzf summon-conjur_v0.2.0_linux-amd64.tar.gz
+$ mkdir -p /usr/local/lib/summon
+$ mv summon-conjur /usr/local/lib/summon
 ```
 
 ### Setup Simple Queue Service (SQS) in Amazon Web Services (AWS)
